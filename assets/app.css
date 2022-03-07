@@ -1,0 +1,319 @@
+body,html{
+    font-family: 'filson-pro', sans-serif;
+}
+
+/* ===================== Navigation ======================== */
+
+#mainNav{
+    background-color: #0E0E56;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+}
+
+#mainNav button.btn-navbar{
+    display: none;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    color: white;
+
+}
+
+.nav li{
+    list-style: none;
+    padding: 5px;
+}
+
+.nav li a{
+    color: #fff;
+}
+
+.nav li a:hover{
+    color: #EF4583;
+}
+
+/* =================== Search Bar ===================== */
+
+#searchBar{
+    padding: 15px;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+}
+
+.search-query{
+    background-color: #E5E7EB;
+    border-radius: 100px;
+    border: solid #E5E7EB;
+    padding: 5px 10px;
+    font-size: medium;
+    margin-right: 15px;
+    box-shadow: 0px 0px 4px 0px #9CA3AF;
+}
+
+#searchBar button{
+    border-radius: 100px;
+    border: solid #EF4583;
+    box-shadow: 0px 0px 4px 0px #9CA3AF;
+    background-color: #EF4583;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+#searchBar button:hover{
+    background-color: #C71D5B;
+    border-color: #C71D5B;
+}
+
+/* ======================== Main Articles =========================== */
+
+.collection-head h2{
+    border-bottom: 1px solid #9CA3AF;
+    padding-bottom: 15px;
+}
+
+
+#collection-34, #collection-48, #collection-38, #collection-53, #collection-42{
+    border: 1px solid #9CA3AF;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px lightgrey;
+    padding: 20px;
+    margin: 25px auto;
+    width: 300px;
+    line-height: 35px;
+}
+
+#collection-48{
+    background: url("https://codepotato.co.uk/assets/img/plannr/employees.png") no-repeat 20px 35px;
+    background-size: 50px;
+}
+
+#collection-34{
+    background: url("https://codepotato.co.uk/assets/img/plannr/clients.png") no-repeat 20px 35px;
+    background-size: 50px;
+}
+#collection-38{
+    background: url("https://codepotato.co.uk/assets/img/plannr/cases.png") no-repeat 20px 35px;
+    background-size: 50px;
+}
+
+#collection-53{
+    background: url("https://codepotato.co.uk/assets/img/plannr/settings.png") no-repeat 20px 35px;
+    background-size: 50px;
+}
+
+#collection-42{
+    background: url("https://codepotato.co.uk/assets/img/plannr/shortcuts.png") no-repeat 20px 35px;
+    background-size: 50px;
+}
+
+.collection-head {
+    padding-left: 65px;
+}
+
+.popArticles{
+    list-style: none;
+    margin-left: 25px;
+
+}
+.icon-article-doc span{
+    color: #9CA3AF;
+}
+.popArticles a{
+    font-size: medium;
+}
+
+
+.popArticles a:hover{
+    color: #2CC4E7;
+    text-decoration: underline;
+}
+h2, a{
+    color: #0E0E56;
+    text-decoration: none;
+}
+
+p{
+    color: #EF4583;
+}
+
+/* ======================== Footer ====================== */
+
+footer p{
+    text-align: center;
+}
+
+/* =====================Search Page - Articles =========================*/
+
+#serp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin:auto;
+}
+
+#serp h1{
+    font-size: x-large;
+    color: #0E0E56;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+#serp h1 strong{
+    color: #ef4583;
+    text-decoration: underline;
+}
+.articleList{
+    list-style: none;
+}
+
+.articleList li a{
+    font-size: large;
+    color: #ef4583;
+}
+.articleList li a:hover{
+    color: #2CC4E7;
+    text-decoration: underline;
+}
+
+.articleList li p{
+    font-size: smaller;
+    padding-bottom: 25px;
+    color: #0E0E56;
+    border-bottom: solid 1px #9CA3AF;
+}
+
+.articlesFound{
+    color: #9CA3AF;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+
+/* ================= How to pages =================*/
+
+#fullArticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+}
+#fullArticle img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px #9CA3AF;
+    max-width: 100%;
+    height: auto;
+}
+.articleRatings {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    line-height: 35px;
+}
+.articleFoot{
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+.title{
+    font-size: x-large;
+    color: #0E0E56;
+    text-decoration: underline;
+}
+strong{
+    color: #0E0E56;
+}
+
+
+/* ================= Media Screens =================== */
+
+@media screen and (min-width: 768px) {
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .search-query{
+      width: 400px;
+    }
+
+    #searchBar button{
+        width: 100px;
+    }
+
+    #collection-34, #collection-48, #collection-38, #collection-53, #collection-42{
+        width: 500px;
+    }
+
+    #serp {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+
+    #mainNav{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .brand{
+        display: flex;
+        flex-direction: row;
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px
+    }
+    .nav a{
+        margin-left: 10px;
+    }
+    .navbar-inner .container-fluid{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .navbar-inner{
+        width: 100%;
+        margin-right: 40px;
+    }
+
+    .search-query{
+
+        height: 40px;
+    }
+    #searchBar{
+        padding:40px;
+    }
+    #serp {
+        width: 800px;
+    }
+}
